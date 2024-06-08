@@ -15,7 +15,9 @@ The Second method is **Edge Enhancement**<br>
   <p align="center">
     <code>$$\begin{bmatrix}0 & -1 & 0 \\ -1 & 5 & -1 \\ 0 & -1 & 0\end{bmatrix}$$</code>
   </p>
-
+[ 0 -1 0 ]
+[-1 5 -1 ]
+[ 0 -1 0 ]
 <table>
   <tr>
     <td style="text-align:center;">
