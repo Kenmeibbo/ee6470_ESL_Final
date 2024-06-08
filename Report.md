@@ -8,19 +8,15 @@ I use two kind of images process method to implement at HLS-Stratus and RISCV-VP
 The first method is **Median Blur**<br>
 + Objective: When an image is subjected to salt-and-pepper noise, it can be restored using a median filter.
 + Function: Find the median in the 3 x 3 kernel.
-$$
-h(x, y) = \max_{i, j \in \{-1, 0, 1\}} g(x + i, y + j)
-$$
+$$h(x, y) = \max_{i, j \in \{-1, 0, 1\}} g(x + i, y + j)$$
 The Second method is **Edge Enhancement**<br>
 + After using the first method, the images will seem blurry, but they will become clearer in this part.
-+ Function: Laplace sharpening filter can be simplify as:
-$$
-\begin{bmatrix}
++ Function: Laplace sharpening filter can be simplify as:<br>
+$$\begin{bmatrix}
 0 & -1 & 0 \\
 -1 & 5 & -1 \\
 0 & -1 & 0
-\end{bmatrix}
-$$
+\end{bmatrix}$$
 <table>
   <tr>
     <td style="text-align:center;">
