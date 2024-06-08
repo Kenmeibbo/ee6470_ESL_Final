@@ -12,7 +12,15 @@ $$h(x, y) = \max_{i, j \in \{-1, 0, 1\}} g(x + i, y + j)$$
 The Second method is **Edge Enhancement**<br>
 + After using the first method, the images will seem blurry, but they will become clearer in this part.
 + Function: Laplace sharpening filter can be simplify as:<br>
-$$\begin{bmatrix}0&-1&0\\-1&5&-1\\0&-1&0\end{bmatrix}$$
+  <p align="center">
+    <code>$$
+    \begin{bmatrix}
+    0 & -1 & 0 \\
+    -1 & 5 & -1 \\
+    0 & -1 & 0
+    \end{bmatrix}
+    $$</code>
+  </p>
 
 <table>
   <tr>
