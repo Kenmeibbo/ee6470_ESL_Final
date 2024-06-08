@@ -89,9 +89,9 @@ And also apply **"Loop unroll"** and **"Loop Pipeline"** at this section.
 #endif
                 ...
 
-        }
-      }
-    }
+      			  	}
+			}
+		}
 		if (valid == 1){ 
 			for (int q = -1; q != 1 + 1; ++q) {   //-1, 0, 1
 				for (int r = -1; r != 1 + 1; ++r) { //-1, 0, 1
