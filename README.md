@@ -307,7 +307,7 @@ But we can do two images at the same time, so the total simulation time may can 
     </td>
     <td style="text-align:center; vertical-align:middle;">
       <p><b>Median Blur and Edge Enhancement</b></p>
-      <p style="font-size: 100px; transform: scaleX(2);">&#8594;</p>
+      <div style="width: 200px; height: 10px; border-top: 3px solid black; border-right: 10px solid black; transform: translateY(-50%) rotate(45deg); margin: 0 auto;"></div>
     </td>
     <td style="text-align:center;">
       <img src="img/lena_std_short_noise_out.bmp" alt="Image 2" style="width:200px;">
