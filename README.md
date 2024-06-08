@@ -291,7 +291,7 @@ But we can do two images at the same time, so the total simulation time may can 
     </td>
     <td style="text-align:center; vertical-align:middle;">
       <p><b>Median Blur and Edge Enhancement</b></p>
-      <p style="font-size: 100px;">&#8594;</p>
+      <p style="font-size: 100px; transform: scaleX(2);">&#8594;</p>
     </td>
     <td style="text-align:center;">
       <img src="img/lena_color_256_noise_out.bmp" alt="Image 2" style="width:200px;">
@@ -307,7 +307,7 @@ But we can do two images at the same time, so the total simulation time may can 
     </td>
     <td style="text-align:center; vertical-align:middle;">
       <p><b>Median Blur and Edge Enhancement</b></p>
-      <p style="font-size: 100px;">&#8594;</p>
+      <p style="font-size: 100px; transform: scaleX(2);">&#8594;</p>
     </td>
     <td style="text-align:center;">
       <img src="img/lena_std_short_noise_out.bmp" alt="Image 2" style="width:200px;">
